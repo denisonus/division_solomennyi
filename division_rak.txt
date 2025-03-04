@@ -1,0 +1,8 @@
+S(student_name)
+C(course_name)
+SC(student_name, course_name)
+
+S × C -> R1
+R1 / Student_Course -> R2
+R2[student_name] -> R3
+S / R3 -> Res
