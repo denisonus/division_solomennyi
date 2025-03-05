@@ -11,13 +11,11 @@ studentCourses =
   [ ("alice", "english"),
     ("alice", "history"),
     ("bob", "english"),
-    ("bob", "history"),
     ("bob", "math"),
     ("clark", "math"),
     ("emily", "english"),
     ("emily", "history"),
-    ("emily", "math"),
-    ("emily", "biology")
+    ("emily", "math")
   ]
 
 studentHasCourse :: String -> String -> Bool
